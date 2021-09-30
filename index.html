@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Prva spletna stran</title>
+        <link rel="stylesheet"  href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Frizerski salon Kleopatra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Domov</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O nas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Storitve
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Striženje</a></li>
+                                <li><a class="dropdown-item" href="#">Barvanje</a></li>
+                                <li><a class="dropdown-item" href="#">Podaljševanje las</a></li>
+                                <li><a class="dropdown-item" href="#">Priložnostne pričeske</a></li>
+                                <li><a class="dropdown-item" href="#">Keratin terapija</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cenik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid p-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" >
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="slika1.jpg" class="d-block imgmargin" alt="Frizura">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="slika2.jpg" class="d-block imgmargin" alt="Salon">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="slika3.jpg" class="d-block imgmargin" alt="Frizerke">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="row container1">
+            <div class="col-sm-4 center">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> Pričeske  </h5>
+                        <img src="styling.jpg" height="200px" width="150px">
+                        <p></p>
+                        <a href="#" class="btn btn-primary">Pojdi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 center">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Barvanje</h5>
+                        <img src="coloring.jpg" height="200px" width="150px">
+                        <p></p>
+                        <a href="#" class="btn btn-primary">Pojdi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 center">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Striženje</h5>
+                        <img src="strizenje.jpg" height="200px" width="150">
+                        <p></p>
+                        <a href="#" class="btn btn-primary">Pojdi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<hr>
+        <div class="container2">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email naslov</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Geslo</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Prijava na e-novice</label>
+                </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+            <table class="table-active">
+                <thead>
+                <tr>
+                    <th scope="col">Dan</th>
+                    <th scope="col">Delovni čas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Ponedeljek</th>
+                    <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Torek</th>
+                    <td>10.00-18.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sreda</th>
+                    <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Četrtek</th>
+                    <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Petek</th>
+                    <td>12.00-20.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sobota</th>
+                    <td>8.00-12.00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Nedelja</th>
+                    <td>Zaprto</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <hr>
+        <div class="container-fluid px-5 mx-5 center ">
+            <h1>Pogosta vprašanja</h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Imate darilne bone?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Izberite vrednost darilnega bona po želji in opravite spletni nakup. Bon vam v darilni kuverti brezplačno pošljemo po pošti – lahko na vaš naslov ali naslov drugega prejemnika.
+                                                Bon je unovčljiv za razvajanje v Salonu Kleopatra – za vse vrste frizerskih storitev, ki jih nudimo (v enkratnem ali večih obiskih).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Lahko s seboj pripeljem hišnega ljubljenčka?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Seveda, hišni ljubjenčki so zaželjeni.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Katere certifikate in opravljene tečaje imajo vaši zaposleni?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Naši zaposleni se redno izobražujejo in so vedno poučeni o najnovejših stilih in tehnikah s katerimi te stile dosežejo. Več o certifikatih
+                    si lahko preberete tudi v salonu, kjer so vsi tečaji, diplome in certifikati razstavljeni. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <hr>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Kleopatra d.o.o. © 2018</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
